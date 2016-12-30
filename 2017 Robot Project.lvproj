@@ -114,6 +114,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Robot Classes" Type="Folder">
+				<Item Name="Robot.lvclass" Type="LVClass" URL="../Classes/Robot.lvclass"/>
+			</Item>
 			<Item Name="ADIS16448" Type="Folder">
 				<Item Name="ADIS16448-LabVIEW_libs" Type="Folder">
 					<Item Name="ADI MXP IMU" Type="Folder">
@@ -123,9 +127,6 @@ AddOutputFilter chunkFilter
 					<Item Name="ADIS16448 IMU Example.vi" Type="VI" URL="../Senor Drivers-Libs/ADIS16448-LabVIEW_libs/ADIS16448 IMU Example.vi"/>
 					<Item Name="FRC ADI MXP IMU.lvproj" Type="Document" URL="../Senor Drivers-Libs/ADIS16448-LabVIEW_libs/FRC ADI MXP IMU.lvproj"/>
 				</Item>
-			</Item>
-			<Item Name="Robot Classes" Type="Folder">
-				<Item Name="Robot.lvclass" Type="LVClass" URL="../Classes/Robot.lvclass"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
