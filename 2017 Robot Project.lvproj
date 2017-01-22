@@ -128,6 +128,9 @@ AddOutputFilter chunkFilter
 					<Item Name="FRC ADI MXP IMU.lvproj" Type="Document" URL="../Senor Drivers-Libs/ADIS16448-LabVIEW_libs/FRC ADI MXP IMU.lvproj"/>
 				</Item>
 			</Item>
+			<Item Name="Utilities" Type="Folder">
+				<Item Name="timer_sub_VI.vi" Type="VI" URL="../../Dump/timer_sub_VI.vi"/>
+			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -139,7 +142,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="timer_sub_VI.vi" Type="VI" URL="../../Dump/timer_sub_VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
