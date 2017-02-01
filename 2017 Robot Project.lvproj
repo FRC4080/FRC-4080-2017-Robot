@@ -132,6 +132,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Auto modes.ctl" Type="VI" URL="../Auto modes.ctl"/>
 				<Item Name="Shifter override.ctl" Type="VI" URL="../Shifter override.ctl"/>
 				<Item Name="dash_to_rio_cluster.ctl" Type="VI" URL="../dash_to_rio_cluster.ctl"/>
+				<Item Name="rio_to_dash_cluster.ctl" Type="VI" URL="../rio_to_dash_cluster.ctl"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -144,7 +145,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="comunication clusters.vi" Type="VI" URL="../comunication clusters.vi"/>
 		</Item>
-		<Item Name="rio_to_dash_cluster.ctl" Type="VI" URL="../rio_to_dash_cluster.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
