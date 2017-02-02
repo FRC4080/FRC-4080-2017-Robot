@@ -21,6 +21,7 @@
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="dash_to_rio_cluster.ctl" Type="VI" URL="../../dash_to_rio_cluster.ctl"/>
+		<Item Name="rio_to_dash_cluster.ctl" Type="VI" URL="../../rio_to_dash_cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
