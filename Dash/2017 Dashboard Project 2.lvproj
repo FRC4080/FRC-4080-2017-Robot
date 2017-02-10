@@ -208,8 +208,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Handle Camera Configuration.vi" Type="VI" URL="../Handle Camera Configuration.vi"/>
-			<Item Name="Shifter override.ctl" Type="VI" URL="../../../Main/Shifter override.ctl"/>
-			<Item Name="dash_to_rio_cluster.ctl" Type="VI" URL="../../../Main/dash_to_rio_cluster.ctl"/>
+			<Item Name="Shifter override.ctl" Type="VI" URL="../../Shifter override.ctl"/>
+			<Item Name="dash_to_rio_cluster.ctl" Type="VI" URL="../../dash_to_rio_cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
