@@ -20,8 +20,6 @@
 			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="dash_to_rio_cluster.ctl" Type="VI" URL="../../dash_to_rio_cluster.ctl"/>
-		<Item Name="rio_to_dash_cluster.ctl" Type="VI" URL="../../rio_to_dash_cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -210,8 +208,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Handle Camera Configuration.vi" Type="VI" URL="../Handle Camera Configuration.vi"/>
-			<Item Name="Shifter override.ctl" Type="VI" URL="../../Shifter override.ctl"/>
-			<Item Name="Auto modes.ctl" Type="VI" URL="../../Auto modes.ctl"/>
+			<Item Name="Shifter override.ctl" Type="VI" URL="../../../Main/Shifter override.ctl"/>
+			<Item Name="dash_to_rio_cluster.ctl" Type="VI" URL="../../../Main/dash_to_rio_cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
@@ -237,7 +235,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A1E09BC1-C558-4ABC-A6B2-4994DA556F35}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2295253A-7AF0-4407-B87D-62F8C5C842A9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
